@@ -1,0 +1,146 @@
+body{
+    background-color: #1E1E1F;
+    margin: 50px auto;
+    font-size: 16px;
+    color: white;
+    /* padding: 50px 80px; */
+    font-family: "微軟正黑體",sans-serif;
+    display: flex;
+    justify-content: center;/*水平置中*/
+    align-items: center; /*垂直置中*/
+    max-width: 800px;
+    }
+
+html, body {
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+      -ms-text-size-adjust: none;
+          text-size-adjust: none;  
+}
+
+
+p{
+    margin-left: 10px;
+}
+
+#myimg {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    width: auto;
+    height: auto;
+    float: left;
+
+}
+#myimg img{
+    width: 225px;
+    height: 225px;
+    float: left;
+}
+
+#content{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 3 0px;
+    width: 500px;
+    height: 225px;
+    float: left;
+    text-align: left;
+
+}
+#content img{
+    width:28px ;
+    height:28px;
+    float: left;
+    margin-right: 5px;
+
+}
+#outside{
+    border: 3px solid #ffffff;
+    width: auto;
+    height: auto;
+
+}
+
+#line{
+    margin-bottom: 50px;
+    max-width: 650px;
+    height: 1px;
+}
+
+li{
+    max-width: 90%;
+}
+
+ul{
+    max-width: 100%;
+}
+
+.centered {
+    text-align: center; /* 水平居中 */
+}
+
+.content-block {
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.pikachu{
+    font-family: "微軟正黑體", sans-serif;
+    color:#66e8ce ;
+    font-size: 16px;
+}
+
+.raichu{
+    font-family: "微軟正黑體", sans-serif;
+    color:#d8e8ffef;
+    font-size: 35px;
+}
+
+.pichu{
+    color: #fff;
+    line-height: 24px;
+    margin-left: 50PX;
+}
+
+.pichu1{
+    color: #fff;
+    line-height: 18px;
+    margin-left: 50PX;
+}
+
+.pichu2{
+    color: #fff;
+    line-height: 24px;
+    margin-left: 50PX;
+    width: 680px;
+}
+
+.circleImg{
+  border-radius: 30px;
+  width:60px;
+  height:60px;
+}
+
+.title{
+    color: rgb(200, 200, 255)
+}
+
+.center-image {
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    margin-top: 20px; /* 调整上边距，根据需要更改值 */
+}
+
+
+.center-image img {
+    display: inline-block; /* 将图片设为行内块元素 */
+    margin: 0 auto; /* 水平居中 */
+}
